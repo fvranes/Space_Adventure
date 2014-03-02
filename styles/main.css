@@ -1,0 +1,24 @@
+
+canvas
+{
+	
+padding-left: 0;
+    	
+padding-right: 0;
+	
+margin-left:auto;
+	
+margin-right:auto;
+	
+display: block;
+	background: black; 
+
+}
+
+body 
+{
+		
+background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.55, rgb(0,0,0)),color-stop(0.2, rgb(30,125,225)),color-stop(0, rgb(135,206,235)));
+
+}
+

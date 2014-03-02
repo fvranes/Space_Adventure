@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title>Space Adventure</title><!--the title of browser tab-->
+		<link rel="stylesheet" href="styles/main.css"></link>
+		<!--loading scripts-->
+		<script src="scripts/library/easeljs-0.4.2.min.js"></script>
+		<script src="scripts/background_resources/background.js"></script>
+		<script src="scripts/background_resources/sprites.js"></script>
+		<script src="scripts/background_resources/informationBar.js"></script>
+		<script src="scripts/elements/hero.js"></script>
+		<script src="scripts/elements/enemies.js"></script>
+		<script src="scripts/gameSetUp/menu.js"></script>
+		<script src="scripts/game.js"></script>
+	</head>
+	<body onload = "init();"><!-- in game.js - start game -->
+		<canvas id="canvas" width=480 height=700 ></canvas>  
+		<!--the images below game canvas-->
+		<h2 align="middle">Instructions</h2>
+		<h4 align="middle">Move</h4>
+		<img style = "margin:0px auto;display:block"alt="arr"src="assets/images/control/arrow.png"/> 
+		<h4 align="middle">Shoot</h4>
+		<img style = "margin:0px auto;display:block"alt="arr"src="assets/images/control/space.png"/> 
+	</body>
+</html>
