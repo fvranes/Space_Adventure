@@ -3,16 +3,16 @@ function menu(st, w, h){
 	this.width = w;
 	this.height = h; ///import the stage, width and height values for the menu class
 	this.txt = new Text("SPACE ADVENTURE", "36px Copperplate Gothic Bold", "#FFF"); //creates a text object for the game title
-	this.txt.x = 47;//x position of this.txt
+	this.txt.x = (this.width / 2) - (this.txt.getMeasuredWidth() / 2);//x position of this.txt
 	this.txt.y = 100;///y position of this.txt
 
 
 	this.guide = new Text("Press ENTER to start Game", "20px Copperplate Gothic Bold", "#FFF"); //creates a text object for instructions for starting the game
-	this.guide.x = this.txt.x+47.5;//x position of this.guide
+	this.guide.x = (this.width / 2) - (this.guide.getMeasuredWidth() / 2);//x position of this.guide
 	this.guide.y = this.txt.y+50;//y position of this.guide
 
 	this.credits = new Text("A game by Filip and Stan", "20px Copperplate Gothic Bold", "#FFF");///creates a text object for game credits
-	this.credits.x = this.txt.x+57.5;///x position of this.credits
+	this.credits.x = (this.width / 2) - (this.credits.getMeasuredWidth() / 2);///x position of this.credits
 	this.credits.y = this.txt.y+550;///y position of this.credits
 	
 	this.image = new Bitmap("assets/images/spaceship/center/med_boost.gif");///create a bitmap of the spaceship for our menu
@@ -37,7 +37,7 @@ function menu(st, w, h){
 		this.stage.addChild(this.credits);//display credits text again
 		this.stage.addChild(this.image);//display stretched image again
 		this.score = new Text("Score: "+sc, "20px Copperplate Gothic Bold", "#FFF");//creates a text object for the final score
-		this.score.x = this.width/2 - 69;//x position of final score
+		this.score.x = (this.width / 2) - (this.score.getMeasuredWidth() / 2);//x position of final score
 		this.score.y = 300;//y position of final score
 		this.stage.addChild(this.score);//display final score
 		
