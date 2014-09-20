@@ -7,7 +7,7 @@ Other browsers will not let the game function properly.
 
 HOW TO RUN PROGRAM
 ~~~~~~~~~~~~~~~~~~
-1. In the same directory where you found this txt file, locate and select 'Space_Adventure.html' file.
+1. In the same directory where you found this txt file, locate and select 'index.html' file.
 2. Right click on the selected file and choose 'Open with' --> Google Chrome
 3. Instructions related to game play will be provided in browser window.
 ~~~~~~~~~~~~~~~~~~
